@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>pogoda</title>
+        <link rel="manifest" href =".mainfest.json">
+        <meta name="theme-color" color="#79c4ff">
+    </head>
+    <body>
+        <header>
+            <h1>aplikacja pogodowa</h1>
+            <main>
+                <section class="search">
+                    <input type="text" id="city" placeholder="podaj nazwe miasta">
+                    <button>sprawdz pogode</button>
+                    <p class="error_message"></p>
+                </section>
+                <section>
+                    <h2 class="city_name"></h2>
+                    <div>
+                        <img scr="" alt="">
+                        <p class="temp" id="temp"></p>
+                    </div>
+                    <p class="descripcion"></p>
+                </section>
+                <section class="weather_botton">
+                    <p>temperatura odczuwalna: <span class="feels_like"></span></p>
+                    <p>cisnienie: <span class="pressure"></span></p>
+                    <p>wilgotnosc: <span class="humidity"></span></p>
+                    <p>przedkosc wiatru: <span class="wind_speed"></span></p>
+                    <p>zachmurzenie: <span class="clouds"></span></p>
+                    <p>widocznosc: <span class="visibility"></span></p>
+                </section>
+            </main>
+        </header>
+        <footer>
+            <p>projekt wsb merito gdynia</p>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script scr="./script.js"></script>
+    </body>
+</html>
