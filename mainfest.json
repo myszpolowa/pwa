@@ -6,9 +6,9 @@
     "display": "fullscreen",
     "orientation": "portrait",
     "start_url": "/pwa/",
-    "icon": [{
+    "icons": [{
         "src": "./pwa_sun_icon.png",
         "sizes" : "512x512",
         "type" : "image/png"
     }]
-  }
+}
